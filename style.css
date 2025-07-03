@@ -1,0 +1,239 @@
+body {
+    background-color: #f6ebcd;
+}
+
+/*header*/
+
+/*header-div1*/
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    header {
+        display: block;
+        height: 80%;
+    }
+}
+
+.head-div1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .head-div1 {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    
+}
+.head-div1-div1 h1{
+    margin-bottom: -2px;
+}
+.head-div1-div1 h3{
+    margin-top: -2px;
+    margin-left: 3%;
+    font-weight: normal;
+}
+/*header-div2*/
+.head-div2 {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .head-div2 {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li .accueil {
+    text-decoration: underline;
+    color: red;
+}
+.navbar ul li a:hover {
+    color: red;
+}
+/*div1*/
+.baniere {
+    width: 100%;
+    height: 400px;
+    
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .baniere {
+        height: 280px;
+    }
+}
+.div1-texte {
+    position: absolute;
+    top: 330px;
+    left: 80px;
+    color: white;
+    font-size: 24px;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .div1-texte  {
+        top: 60%;
+        left: 5%;
+        color: black;
+    }
+}
+.div1-bouton {
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    background-color: #79060d;
+    height: 50px;
+    width: 140px;
+    color : white;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .div1-bouton  {
+        top: 70%;
+        left: 5%;
+        font-weight: bolder;
+    }
+}
+/*div0*/
+.div0 {
+    display: flex;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .div0  {
+        display: block;
+    }
+}
+/*section*/
+section {
+    padding: 75px;
+    padding-top: 35px;
+    width: 2700px;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    section  {
+        height: 110%;
+        width: 90%;
+        padding-top: 25%;
+        margin: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+.section-div {
+    display: flex;
+    align-items: center;
+}
+.section-img {
+    width: 30px;
+    height: 30px;
+}section p {
+    font-size: 17px;
+    color: #555;
+}
+
+/*article*/
+article {
+    background-color: #6e6963;
+    margin: 75px;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 1350px;
+    color: white;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    article {
+        height: 110%;
+        width: 90%;
+        padding-top: 25%;
+        margin: 1%;
+    }
+}
+.article-div1 img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.article-h2 {
+    text-align: center;
+}
+.article-p1, .article-p2{
+    text-align: center;
+    font-size: 17px;
+}
+.article-div0-img {
+    text-align: center;
+}
+span {
+    font-weight: bolder;
+}
+.article-img {
+    width: 100px;
+    height: 100px;
+}
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    footer {
+        display: block;
+        height: 110%;
+        width: 90%;
+        padding-top: 10%;
+    }
+}
+.footer-div2-div1 img {
+    width: 55.9px;
+    height: 80px;
+}
+.footer-div3-div1 {
+    display: flex;
+}
+.footer-div3-div1 ul li {
+    list-style: none;
+    color: red;
+}
+.footer-div3-ul2 li {
+    font-style: italic;
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .footer-div2-div1 img {
+        width: 22%;
+        margin: 1%;
+    }
+}
+@media screen and (max-width: 800px), screen and (max-height: 200px) {
+    .footer-div1, .footer-div2, .footer-div3 {
+        padding-top: 1%;
+    }
+}
